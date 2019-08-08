@@ -1,0 +1,29 @@
+<project>
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>io.codeleaf.authz</groupId>
+        <artifactId>authz</artifactId>
+        <version>0.1.0</version>
+    </parent>
+
+    <artifactId>authz-api</artifactId>
+
+    <name>Authz :: API</name>
+    <description>Interface to the Authorization Library</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>io.codeleaf.common</groupId>
+            <artifactId>common-utils</artifactId>
+            <version>${leaf-common.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.codeleaf.authn</groupId>
+            <artifactId>authn-api</artifactId>
+            <version>${leaf-authn.version}</version>
+        </dependency>
+    </dependencies>
+
+</project>
